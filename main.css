@@ -1,0 +1,481 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.navbar .logo h2 {
+  color: #43806C;
+  font-weight: 500;
+}
+.navbar .links ul {
+  display: flex;
+  list-style: none;
+}
+.navbar li a {
+  text-decoration: none;
+  margin: 0 15px;
+  color: #43806C;
+}
+.navbar ul {
+  gap: 18px;
+  margin-top: 10px;
+}
+.navbar ul button {
+  width: 150px;
+  height: 30px;
+  background-color: #43806C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  bottom: 6px;
+}
+.navbar ul button:hover {
+  background-color: transparent;
+  border: 1px solid #43806C;
+  box-shadow: 1px 1px 2px 1px #43806C;
+  color: #43806C;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./photo_2022-08-28_21-17-34.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 25px;
+}
+.container .img-text {
+  width: 40%;
+  height: 40%;
+  color: #376b5a;
+}
+.container input {
+  width: 45%;
+  height: 20%;
+  border-radius: 5px 0 0 5px;
+  border: none;
+}
+.container button {
+  width: 20%;
+  height: 20%;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  background-color: #43806C;
+  color: white;
+  position: relative;
+  right: 5px;
+}
+.container button:hover {
+  background-color: white;
+  color: #376b5a;
+  border: 1px solid #376b5a;
+}
+
+.cards {
+  width: 90%;
+  height: 20%;
+  margin: auto;
+  position: relative;
+  bottom: 28%;
+  background-color: white;
+  display: flex;
+  box-shadow: 2px 2px 5px 1px grey;
+  border-radius: 5px;
+}
+.cards .card {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  padding: 30px;
+  gap: 20px;
+}
+.cards .card h5 {
+  font-weight: 100;
+  color: #43806C;
+}
+
+.block {
+  width: 100%;
+  height: 100vh;
+  margin-top: 10%;
+}
+.block .boxs {
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+.block .boxs .box {
+  width: 50%;
+  height: 100%;
+  padding: 50px;
+}
+.block .boxs .box img {
+  width: 100%;
+  height: 100%;
+}
+.block .boxs .box .img-text2 h3 {
+  font-weight: 100;
+  color: #376b5a;
+}
+.block .boxs .box .img-text2 h1 {
+  color: #376b5a;
+}
+.block .boxs .box .img-text2 h4 {
+  font-weight: 100;
+}
+.block .boxs .box .img-text2 button {
+  width: 10%;
+  height: 20%;
+  color: #2a5245;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #2a5245;
+  background-color: transparent;
+}
+.block .boxs .box .img-text2 button:hover {
+  background-color: #2a5245;
+  color: white;
+  border-radius: 5px;
+}
+
+.block2 {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+}
+.block2 .box1 {
+  width: 50%;
+  height: 100%;
+  padding: 80px;
+  line-height: 50px;
+  background-color: #E3EEED;
+}
+.block2 .box1 h3 {
+  font-weight: 100;
+}
+.block2 .box1 h1 {
+  color: #2a5245;
+}
+.block2 .box1 h2 {
+  color: #43806C;
+}
+.block2 .box2 {
+  width: 50%;
+  height: 100%;
+  background-color: #214E41;
+  padding: 90px;
+  color: white;
+}
+.block2 .box2 h3 {
+  font-weight: 100;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.table {
+  width: 90%;
+  height: 25%;
+  margin: auto;
+  display: flex;
+}
+.table .col {
+  width: 30%;
+  padding: 20px;
+}
+.table .col h1 {
+  font-size: 50px;
+  color: #F0A446;
+}
+.table .col p {
+  color: #1c4338;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./img/2022-08-29_14-36-41.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.content .img-text1 {
+  width: 40%;
+  position: relative;
+  top: 100px;
+  left: 55%;
+}
+.content .img-text1 h3 {
+  font-weight: 100;
+  color: #214E41;
+}
+.content .img-text1 h1 {
+  color: #1c4338;
+}
+
+.fotos {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  padding: 40px;
+}
+.fotos .card {
+  width: 50%;
+}
+.fotos .card .card-body img {
+  width: 100%;
+}
+.fotos .card .card-footer h4 {
+  font-weight: 100;
+  color: #214E41;
+}
+.fotos .card .card-footer h5 {
+  color: #1c4338;
+  font-size: 18px;
+}
+
+.book {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin-top: 10%;
+}
+.book .page {
+  width: 50%;
+  height: 100%;
+  background-color: #E3EEED;
+}
+.book .page .list {
+  width: 60%;
+  position: relative;
+  top: 20%;
+  left: 20%;
+}
+.book .page .list h1 {
+  color: #1c4338;
+}
+.book .page .list button {
+  width: 40%;
+  height: 40px;
+  background-color: #1c4338;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.book .page .list button:hover {
+  background-color: transparent;
+  border: 1px solid #1c4338;
+  color: #1c4338;
+}
+.book .page img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  background-color: #214E41;
+  color: white;
+}
+.footer .plitka {
+  width: 25%;
+  height: 50%;
+  padding: 20px;
+  line-height: 40px;
+}
+.footer .plitka8 {
+  padding: 20px;
+  line-height: 35px;
+}
+.footer .plitka8 h3 {
+  font-weight: 100;
+}
+.footer .plitka8 input {
+  width: 60%;
+  height: 18%;
+  border: 1px solid white;
+  background-color: transparent;
+}
+.footer .plitka8 .svg {
+  gap: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .links li {
+    display: none;
+  }
+  .container {
+    height: 80vh;
+    font-size: 6px;
+  }
+  .container .img-text {
+    width: 60%;
+    height: 20%;
+    position: relative;
+    right: 20px;
+  }
+  .container input {
+    width: 45%;
+    height: 20px;
+    font-size: 8px;
+    padding: 5px;
+  }
+  .container button {
+    width: 30%;
+    height: 20px;
+    font-size: 8px;
+  }
+  .cards {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin-top: -10%;
+  }
+  .cards .card {
+    width: 30%;
+    margin-top: -35px;
+  }
+  .cards .card h5 {
+    position: relative;
+    right: 20px;
+  }
+  .cards img {
+    width: 20px;
+    position: relative;
+    right: 20px;
+  }
+  .block {
+    position: relative;
+  }
+  .block .boxs {
+    font-size: 10px;
+  }
+  .block .boxs .box .img-text2 {
+    width: 230%;
+    position: relative;
+    right: 50px;
+  }
+  .block .boxs .box .img-text2 button {
+    width: 30%;
+    font-size: 10px;
+  }
+  .block .boxs .box img {
+    height: 57%;
+    position: relative;
+    right: 50px;
+    width: 222%;
+  }
+  .block2 {
+    font-size: 12px;
+    position: relative;
+    bottom: 200px;
+  }
+  .block2 .box1 {
+    height: 100%;
+    line-height: 25px;
+  }
+  .block2 .box1 .words {
+    position: relative;
+    right: 58px;
+    bottom: 50px;
+    width: 110px;
+  }
+  .block2 .box2 {
+    height: 100%;
+  }
+  .block2 .box2 .word h3 {
+    font-size: 12px;
+    line-height: 15px;
+    position: relative;
+    right: 50px;
+    bottom: 60px;
+    width: 110px;
+  }
+  .block .table {
+    width: 83%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: -100px;
+  }
+  .block .table .col h1 {
+    font-size: 28px;
+  }
+  .content {
+    height: 80vh;
+  }
+  .content .img-text1 {
+    height: 20px;
+    font-size: 12px;
+  }
+  .content .img-text1 h3 {
+    position: relative;
+    right: 10px;
+  }
+  .content .img-text1 p {
+    position: relative;
+    right: 10px;
+  }
+  .content .img-text1 h1 {
+    position: relative;
+    right: 10px;
+  }
+  .fotos {
+    gap: 20px;
+    position: relative;
+    right: 25px;
+  }
+  .fotos .card-footer h4 {
+    font-size: 12px;
+  }
+  .fotos .card-footer h5 {
+    font-size: 16px !important;
+  }
+  .book {
+    font-size: 12px;
+  }
+  .book .page {
+    height: 90vh;
+    margin-top: 64px;
+  }
+  .book .page .list {
+    font-size: 10px;
+    position: relative;
+    right: 12px;
+  }
+  .footer {
+    font-size: 12px;
+    height: 80vh;
+    flex-wrap: wrap;
+  }
+  .footer .plitka18 {
+    width: 100%;
+  }
+  .footer .plitka {
+    width: 100%;
+    background-color: #214E41;
+  }
+  .footer .plitka8 {
+    width: 100%;
+    background-color: #214E41;
+  }
+}/*# sourceMappingURL=main.css.map */
